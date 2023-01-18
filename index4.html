@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img src="laughing-emoji.png" alt="">
+    <section>
+
+        <h3>Error 404</h3>
+        <p class="text1">Oops!, your order canceled because this site under, </p>
+        <p class="text2">Send the money so i will go and buy the snack for you. </p>
+       
+    </section>
+       
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body{
+        display: grid;
+        height: 100vh;
+        place-content: center center;
+        background-color: rgba(0, 0, 0, 0.911);
+    }
+
+    section{
+       display: inline-block;
+        padding: 1rem;
+        color: rgb(241, 156, 51);
+       
+
+    }
+
+    h3{
+        color: white;
+        font-size: 2rem;
+        font-family: monospace;
+    }
+
+
+    .text1{
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 1rem;
+        font-family: monospace;
+        font-weight: 800;
+        border-right: 5px solid;
+        width: 100%;
+
+        animation: 
+                typing 4s steps(50),
+                cursor .4s step-end infinite alternate
+
+
+
+    }
+
+
+    @keyframes cursor {
+        50%{
+            border-color: transparent;
+        }
+
+    }
+
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+
+        
+    }
+
+
+    .text2{
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 1rem;
+        font-family: monospace;
+        font-weight: 800;
+        border-right: 5px solid;
+        width: 100%;
+
+        animation: 
+                typing 4s steps(50),
+                cursor .4s step-end infinite alternate
+
+
+
+    }
+
+
+    @keyframes cursor {
+        50%{
+            border-color: transparent;
+        }
+
+    }
+
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+
+        
+    }
+
+    img{
+        padding: 2rem;
+        width: 20px;
+    }
+
+
+    
+        @media screen and (min-width: 800px) {
+
+    body{
+        display: none;
+    }
+
+    }
+</style>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="">
+
+            <label for="snack">Choose a snack:</label>
+
+                <select name="food" id="cars">
+                <option value="volvo">Chicken Pizza</option>
+                <option value="volvo"> Beef Pizza</option>
+                <option value="saab">Burger</option>
+                <option value="mercedes">Sausage</option>
+                <option value="audi">white chocolate cookie</option>
+                <option value="audi">meat pie</option>
+                <option value="audi">sardine bread</option>
+                <option value="audi">Samosa</option>
+                </select>
+
+                <br>
+                <br>
+            <label for="number">Phone No:</label>
+            <input type="number" id="number" required>
+
+            <br>
+            <br>
+
+            <label for="location">Your location:</label>
+
+            <select name="cars" id="cars">
+                <option value="volvo"></option>
+                <option value="volvo">Lekki</option>
+                <option value="saab">Benin</option>
+                <option value="mercedes">Okada</option>
+                <option value="audi">Usen</option>
+                <option value="audi">Oyigbo</option>
+                <option value="audi">Ikot epene</option>
+                <option value="audi">Elelenwo</option>
+                <option value="audi">Ikorodu</option>
+                <option value="audi">Owerri</option>
+                <option value="audi">Garki</option>
+                <option value="audi">Asaba</option>
+                <option value="audi">Utako</option>
+                <option value="audi">Woji</option>
+                <option value="audi">Uniport</option>
+                <option value="audi">Abeokuta</option>
+                <option value="audi">Nsukka</option>
+                <option value="audi">Warri</option>
+                </select>
+
+            <br>
+            <br>
+
+            <label for="location">Address:</label>
+            <input type="text" id="location" required>
+                <br>
+                <br>
+                <p><a href="index4.html">Submit</a></p>
+        </form>
+
+      
+    </section>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body{
+            height: 100vh;
+            display: grid;
+            place-content: center center;
+            background-image: url(food.jpg);
+            background-size: cover;
+
+        }
+
+        section{
+           background-color: rgba(255, 255, 255, 0.404);
+            padding: 1rem;
+            border: 2px solid black;
+            box-shadow: -5px -5px 5px #333;
+          
+
+        }
+
+        label{
+            font-size: 2rem;
+            font-weight: 800;
+            text-shadow: 5px 5px 10px #333;
+        }
+
+        input{
+            padding: .5rem;
+            border-radius: 10px;
+            border: none;
+        }
+
+        select{
+            padding: .5rem;
+            font-size: 1rem;
+        }
+
+
+        p{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+            padding: .5rem 1rem;
+            border-radius: 20px;
+            
+        }
+
+
+                
+        @media screen and (min-width: 800px) {
+
+        body{
+            display: none;
+        }
+
+        }
+    </style>
+</body>
+</html>

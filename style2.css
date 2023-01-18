@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    background-image: url(pizza.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    position: relative;
+
+}
+
+h3{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 5rem;
+    font-family: monospace;
+    color: white;
+    text-shadow: 2px 5px 5px #333;
+    transform: translateY(-100px);
+    animation: pizza 2s linear .4s   forwards;
+
+}
+
+@keyframes pizza {
+
+    0%{
+        transform: translateY(-50px);
+
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+
+}
+
+
+p{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 5px 5px 5px #333;
+}
+
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px rgb(24, 13, 13);
+    background-color: hsla(0, 0%, 20%, 0.808);
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    text-transform: lowercase;
+    font-weight: 900;
+
+  
+
+}
+
+div{
+   
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    margin: 20% 0;
+
+}
+
+.order{
+
+    background-color: rgba(255, 0, 0, 0.726);
+   
+}
+
+
+.order:hover{
+    background-color: white;
+    color: #333;
+    text-shadow: none;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    body{
+        display: none;
+    }
+    
+ }
